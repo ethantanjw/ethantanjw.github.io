@@ -1,0 +1,138 @@
+@font-face {
+    font-family: test_font;
+    src: url(PixelOperatorMono.ttf);
+  }
+
+  @font-face {
+    font-family: test_font_2;
+    src: url(PixelOperatorMono-Bold.ttf);
+  }
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+  }
+  
+  .home-link {
+    margin-right: auto;
+    text-decoration: none;
+    color: #545454;
+    font-size: 2.0em;
+    font-family:test_font_2;
+    margin-left:30px;
+  }
+  
+  .menu-links {
+    display: flex;
+    color: #545454;
+    font-size: 1.3em;
+    font-family:test_font;
+    margin-right:30px;
+  }
+  
+  .menu-links a {
+    margin-left: 10px;
+    color: #333;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+
+#introduction{
+    background-color: #E4DFD1;
+    margin-bottom:5em;
+}
+
+.first-container{
+    display: flex;
+    align-items: center;
+    margin-top:50px;
+    margin-left:50px;
+}
+
+#introduction header{
+    font-size: 4em;
+    font-weight: bold;
+    font-family:"Rubik";
+    margin-left:200px;
+}
+
+#introduction img{
+    width:40%;
+    margin-left:10px;
+}
+
+.personal-details button{
+    margin-left:50px;
+    margin-bottom:200px;
+    margin-left:250px;
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
+} 
+
+#about{
+    margin-bottom:5em;
+}
+
+
+#about h1{
+    font-size: 2em;
+    font-weight: normal;
+    font-family:"Rubik";
+    text-align:center;
+}
+
+
+.box{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #545454;
+    box-shadow: 15px 20px #545454;
+    background-color: #E4DFD1;
+    display: flex;
+    flex-direction: column;
+}
+
+.circular-image{
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.box img{
+    justify-content:center;
+    margin-top:30px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;  
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.box p{
+    text-align: left;
+    margin-top: 10px; 
+    font-size: 1.25em;
+    font-weight: lighter;
+    font-family:"Rubik";
+    margin-left: 50px;   
+    margin-right: 50px;   
+}
+
+#education h1{
+    font-size: 2em;
+    font-weight: normal;
+    font-family:"Rubik";
+    text-align:center;
+}
+
+#education img{
+    width:50%;
+}
