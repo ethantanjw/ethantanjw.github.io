@@ -3,7 +3,7 @@
     src: url(PixelOperatorMono.ttf);
   }
 
-  @font-face {
+@font-face {
     font-family: test_font_2;
     src: url(PixelOperatorMono-Bold.ttf);
   }
@@ -51,10 +51,12 @@
     align-items: center;
     margin-top:50px;
     margin-left:50px;
+    margin-right:50px;
+    margin-bottom: 25px;
 }
 
-#introduction header{
-    font-size: 4em;
+.first-container header{
+    font-size: 60px;
     font-weight: bold;
     font-family:"Rubik";
     margin-left:200px;
@@ -62,17 +64,32 @@
 
 #introduction img{
     width:40%;
-    margin-left:10px;
+    margin-left:20px;
 }
 
 .personal-details button{
-    margin-left:50px;
     margin-bottom:200px;
     margin-left:250px;
-    /* display:flex;
-    justify-content: center;
-    align-items: center; */
+
+    font-family:test_font_2;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: rgb(0, 0, 0) 3px 4px 0px;
+    color: #333;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
 } 
+
+.personal-details button:hover {
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
 
 #about{
     margin-bottom:5em;
@@ -136,3 +153,68 @@
 #education img{
     width:50%;
 }
+
+#education h2{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family:"Rubik";
+    text-align:center;
+}
+
+#education h3{
+    font-size: 1.3em;
+    font-weight: normal;
+    font-family:"Rubik";
+    text-align:left;
+    margin-left: 1em; 
+    margin-bottom: 0; 
+}
+
+#education li{
+    font-size: 1.1em;
+    font-weight: normal;
+    font-family:"Rubik";
+    text-align:left;
+    margin-left: 1.3em;
+}
+
+#education p{
+    font-size: 1.1em;
+    font-weight: normal;
+    font-family:"Rubik";
+    text-align:left;
+    margin-left: 1.2em;
+    margin-bottom: 0; 
+}
+
+#more {display: none;}
+
+#about button{
+    font-family:test_font_2;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: rgb(0, 0, 0) 3px 4px 0px;
+    color: #333;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#about button:hover{
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+
+
