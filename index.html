@@ -6,7 +6,6 @@
     <meta name="keywords" content="Information Systems at Carnegie Mellon University">
     <meta name="description" content="Ethan Tan personal website">
     <link rel="stylesheet" media="all" type="text/css" href="css/styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
     <script src="js/scripts.js"></script>
     <title>Ethan Tan</title>
   </head>
@@ -14,13 +13,13 @@
   <body>
     <div id="container"> 
              <div class="menu">
-                <a href="#" class="home-link">Ethan Tan</a>
+                <a href="index.html" class="home-link">Ethan Tan</a>
                 <nav class="menu-links">
-                  <a href="#">About Me</a>  
-                  <a href="#">Resume</a>
+                  <a href="#about">About Me</a>  
+                  <a href=""onclick="openPDF()">Resume</a>
                   <a href="#">My Skills</a>
                   <a href="#">My Projects</a>
-                  <a href="#">Contact Me</a>
+                  <a href="#contact">Contact Me</a>
                 </nav>
               </div>
             <div id="introduction">
@@ -34,15 +33,17 @@
                 </div>
                 <br>
             </div>
+            <hr>
+            <br>
             <div id="about">
                 <h1>About Me</h1>
                 <div class="box">
                     <img src="ethan.jpeg" class="circular-image" alt="Ethan Tan">
                     <br>
-                    <p>Hey there, welcome to my personal page!<br>
+                    <p>Hey there, welcome to my personal page!<br><br>
                     Currently, I am pursuing a Bachelor's Degree in Information Systems at Carnegie Mellon University in Pittsburgh, PA. I am deeply interested in exploring how we can harness the power of technology to contribute to a societal good
-                    <span id="dots">...</span><span id="more"> desire to work in the domains of software engineering or product management in the tech industry. I strongly believe that doing so would enable me to have the greatest impact possible on society.<br>
-                    In my free time, I enjoy engaging in sports-based activities, such as Tennis, go-karting and skiing! I regularly allocate time to entrepreneurial podcasts, such as those by Y Combinator and Greylock Partners along with books about tech and entrepreneurship (checkout what I'm currently reading here).</span></p>
+                    <span id="dots">...</span><span id="more"><br><br> To achieve this, I desire to work in the domains of software engineering or product management in the tech industry. I strongly believe that doing so would enable me to have the greatest impact possible on society.<br>
+                    <br><br>In my free time, I enjoy engaging in sports-based activities, such as Tennis, go-karting and skiing! <br><br>I also regularly allocate time to entrepreneurial podcasts, such as those by Y Combinator and Greylock Partners along with books about tech and entrepreneurship (checkout what I'm currently reading here).</span></p>
                     <br>
                     <button onclick="myFunction()" id="myBtn">Read more</button>
                 </div>
@@ -62,6 +63,35 @@
                     </ul>
                 </div>
             </div>
+            <div id="contact">
+                <h1>Contact Me</h1>
+                <div class="box">
+                    
+                    <div class="contact-form">
+                            <h2>Feel free to drop me a message!</h2>
+                            <div class="form-p">
+                                <p>Alternatively, you can reach out to me at <a style="text-decoration:underline; color:#333" href="mailto:junweiet@andrew.cmu.edu">junweiet@andrew.cmu.edu</a></p>
+                            </div>
+                            <form>
+                            <div class="form-group">
+                                <label for="name"><p>Name:</p></label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><p>Email:</p></label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message"><p>Message:</p></label>
+                                <textarea id="message" name="message" required></textarea>
+                            </div>
+                            <button class="submit-btn" type="submit">Send Message</button>
+                            </form>
+                    </div>
+                    <br>
+                </div>
+            </div>
+            <br><br>
 
 
     </div>
