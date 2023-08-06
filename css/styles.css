@@ -148,7 +148,7 @@ body {
     margin-right: auto;
     border: 1px solid #545454;
     box-shadow: 15px 20px #545454;
-    background-color: #f2f2f2;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
 }
@@ -270,7 +270,7 @@ body {
 }
 
 .row-box{
-    background-color: #f2f2f2;
+    background-color:#fff;
     display: flex;
     margin-left: 20px;
     gap: 10px;
