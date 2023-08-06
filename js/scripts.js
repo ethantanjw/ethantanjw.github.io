@@ -2,7 +2,7 @@ function openPDF() {
     window.open('EthanTanJunWei_Resume.pdf', '_blank');
   }
 
-function myFunction() {
+function readMore() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");
     var btnText = document.getElementById("myBtn");
