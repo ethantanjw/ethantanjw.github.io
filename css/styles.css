@@ -109,7 +109,7 @@ body {
 }
 
 #about h1{
-    font-size: 2em;
+    font-size: 38px;
     font-weight: normal;
     font-family:"Rubik";
     text-align:center;
@@ -161,7 +161,17 @@ body {
     position: relative;
 }
 
-.box img{
+#about img{
+    justify-content:center;
+    margin-top:30px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;  
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#education img{
     justify-content:center;
     margin-top:30px;
     margin-left: auto;
@@ -182,7 +192,7 @@ body {
 }
 
 #education h1{
-    font-size: 2em;
+    font-size: 38px;
     font-weight: normal;
     font-family:"Rubik";
     text-align:center;
@@ -236,24 +246,42 @@ body {
 }
 
 #contact h1{
-    font-size: 2em;
+    font-size: 38px;
     font-weight: normal;
     font-family:"Rubik";
     text-align:center;
 }
 
+#contact h2{
+    font-size: 1.5em;
+    font-weight: normal;
+    font-family:"Rubik";
+    text-align:left;
+    margin-left:20px;
+}
+
+#contact p{
+    font-size: 1.2em;
+    font-weight: normal;
+    font-family:rubik-light;
+    text-align:left;
+    margin-left:20px;
+}
+
 .row-box{
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid #545454;
-    box-shadow: 15px 20px #545454;
     background-color: #f2f2f2;
+    display: flex;
+    margin-left: 20px;
+    gap: 10px;
+}
+
+.row-box img{
+    width:38px;
     display: flex;
 }
 
-.logo{
-    width:5%
+#contact a{
+    color:black;
 }
 
 
