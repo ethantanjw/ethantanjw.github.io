@@ -1,5 +1,5 @@
 function openPDF() {
-    window.open('EthanTanJunWei_Resume.pdf', '_blank');
+    window.open('Ethan_Jun_Wei_Tan_resume.pdf', '_blank');
   }
 
 function readMore() {
